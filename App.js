@@ -16,7 +16,7 @@ function MyStack(){
 }
 export default function App()  {
   return (
-    <NavigationContainer>
+    <NavigationContainer> 
       <MyStack/>
     </NavigationContainer>
   );
@@ -30,18 +30,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-[15:52]
-app.js
-[15:53]
-import React from 'react'
-import { View, Text } from "react-native";
-
-const UsersList = ()=>{
-    return(
-        <View>
-           <text>Users List</text> 
-        </View>
-    )
-}
-
-export default UsersList
